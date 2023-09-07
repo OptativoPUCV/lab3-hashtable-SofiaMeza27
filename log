@@ -13,3 +13,9 @@ hashmap.c:58:5: error: suggest parentheses around assignment used as truth value
 cc1.exe: all warnings being treated as errors
 Compilation failed
 25656b8
+ju.,  7 de sep. de 2023 16:54:57: 
+ hashmap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  1|5
+total_score: 10/70
+ab56b88
