@@ -19,3 +19,17 @@ ju.,  7 de sep. de 2023 16:54:57:
  tests:  1|5
 total_score: 10/70
 ab56b88
+ju.,  7 de sep. de 2023 17:00:30: 
+ hashmap.c | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+In file included from test.c:4:0:
+hashmap.c: In function 'eraseMap':
+hashmap.c:74:21: error: implicit declaration of function 'has' [-Werror=implicit-function-declaration]
+     long posicion = has(key, map -> capacity);
+                     ^~~
+hashmap.c:74:10: error: unused variable 'posicion' [-Werror=unused-variable]
+     long posicion = has(key, map -> capacity);
+          ^~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+546c3fc
