@@ -2,3 +2,14 @@ ju.,  7 de sep. de 2023 16:29:55:
  tests:  0|6
 total_score: 0/70
 029115d
+ju.,  7 de sep. de 2023 16:54:19: 
+ hashmap.c | 15 ++++++++++++++-
+ 1 file changed, 14 insertions(+), 1 deletion(-)
+In file included from test.c:4:0:
+hashmap.c: In function 'createMap':
+hashmap.c:58:5: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+     if(map = NULL)
+     ^~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+25656b8
