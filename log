@@ -50,3 +50,9 @@ vi.,  8 de sep. de 2023 20:33:39:
  tests:  1|5
 total_score: 10/70
 0b08a3a
+vi.,  8 de sep. de 2023 20:41:53: 
+ hashmap.c | 11 +++++++----
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+ tests:  1|5
+total_score: 10/70
+185bd7e

@@ -71,12 +71,15 @@ HashMap * createMap(long capacity)
 
 void eraseMap(HashMap * map,  char * key) 
 {    
-    Pair *pair = searchMap(map, key);
+    long posicion = hash(key, map -> capacity);
 
-    if(pair != NULL)
+    while(strcmp(map -> buckets[posicion] -> key, key) != 0)
     {
-        pair -> key = NULL;
-        map -> size--;
+        posicion = (posicion + 1) % map -> capacity;
+        if(map -> buckets[posicion] == NULL)
+        {
+            return;
+        }
     }
 }
 
