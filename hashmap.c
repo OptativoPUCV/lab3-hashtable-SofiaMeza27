@@ -94,10 +94,10 @@ void eraseMap(HashMap * map,  char * key)
     map -> size--;
 }
 
-Pair * searchMap(HashMap * map,  char * key) {   
-
-
-    return NULL;
+Pair * searchMap(HashMap * map,  char * key) 
+{   
+    long posicion = hash(key, map -> capacity);
+    
 }
 
 Pair * firstMap(HashMap * map) {
