@@ -81,6 +81,8 @@ void eraseMap(HashMap * map,  char * key)
             return;
         }
     }
+    map -> buckets[posicion] -> key = NULL;
+    map -> size;
 }
 
 Pair * searchMap(HashMap * map,  char * key) {   
