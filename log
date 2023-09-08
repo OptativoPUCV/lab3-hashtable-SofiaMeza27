@@ -44,3 +44,9 @@ hashmap.c:74:11: error: unused variable 'pair' [-Werror=unused-variable]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 f1f42a7
+vi.,  8 de sep. de 2023 20:33:39: 
+ hashmap.c | 6 ++++++
+ 1 file changed, 6 insertions(+)
+ tests:  1|5
+total_score: 10/70
+0b08a3a
