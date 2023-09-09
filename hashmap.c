@@ -68,6 +68,8 @@ void enlarge(HashMap * map) {
         }
     }
 
+    map -> buckets = (Pair**)calloc(map -> capacity * 2, sizeof(Pair*));
+
 }
 
 
