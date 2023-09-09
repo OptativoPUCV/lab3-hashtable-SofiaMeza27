@@ -108,12 +108,18 @@ Pair * searchMap(HashMap * map,  char * key)
     }
     map -> current = posicion;
     return map -> buckets[posicion];
-    
+
 }
 
-Pair * firstMap(HashMap * map) {
+Pair * firstMap(HashMap * map) 
+{
+    long posicion = 0;
 
-    return NULL;
+    while(map -> buckets[posicion] == NULL || map -> buckets[posicion] -> key == NULL)
+    {
+        posicion = (posicion + 1) % map -> capacity;
+    }
+    
 }
 
 Pair * nextMap(HashMap * map) {
