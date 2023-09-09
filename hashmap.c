@@ -136,4 +136,6 @@ Pair * nextMap(HashMap * map)
             return NULL;
         }
     }
+    map -> current = posicion;
+    return map -> buckets[posicion];
 }
