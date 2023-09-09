@@ -200,3 +200,9 @@ vi.,  8 de sep. de 2023 21:16:46:
  tests:  16|1
 total_score: 60/70
 ccbbeb9
+vi.,  8 de sep. de 2023 21:50:45: 
+ hashmap.c | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
+ tests:  16|1
+total_score: 60/70
+7cecd23
