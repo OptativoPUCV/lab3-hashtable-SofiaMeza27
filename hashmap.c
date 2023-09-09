@@ -123,7 +123,8 @@ Pair * firstMap(HashMap * map)
     return map -> buckets[posicion];
 }
 
-Pair * nextMap(HashMap * map) {
-
-    return NULL;
+Pair * nextMap(HashMap * map) 
+{
+    long posicion = map -> current + 1;
+    
 }
