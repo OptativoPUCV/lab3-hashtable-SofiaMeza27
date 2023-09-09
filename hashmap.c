@@ -77,6 +77,7 @@ void enlarge(HashMap * map) {
         insertMap(map, auxBuckets[i] -> key, auxBuckets[i] -> value);
         map -> size++;
     }
+    free(auxBuckets);
 
 }
 

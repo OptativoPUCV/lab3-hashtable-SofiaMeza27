@@ -217,3 +217,9 @@ vi.,  8 de sep. de 2023 21:58:13:
  tests:  17|0
 total_score: 70/70
 3e1c791
+vi.,  8 de sep. de 2023 21:59:03: 
+ hashmap.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  17|0
+total_score: 70/70
+75556a1
